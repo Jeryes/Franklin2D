@@ -37,6 +37,7 @@
   },
   "name":"RPGTutorial",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"obj_action_heavy","path":"objects/obj_action_heavy/obj_action_heavy.yy",},},
     {"id":{"name":"obj_action_light","path":"objects/obj_action_light/obj_action_light.yy",},},
@@ -48,6 +49,7 @@
     {"id":{"name":"obj_battle_switcher","path":"objects/obj_battle_switcher/obj_battle_switcher.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
+    {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_battle","path":"rooms/rm_battle/rm_battle.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
