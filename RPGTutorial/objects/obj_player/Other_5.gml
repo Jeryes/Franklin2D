@@ -5,5 +5,6 @@ instance_create_depth(0, 0, 0, obj_carry_data, {
     xp: xp,
     xp_required: xp_required,
     damage: damage,
-    hp_total: hp_total    
+    hp_total: hp_total,
+    hp: hp,
 })
