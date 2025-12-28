@@ -14,4 +14,3 @@ else
 {
     can_talk = false;
 }
-    
