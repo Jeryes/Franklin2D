@@ -1,7 +1,12 @@
 if (instance_exists(obj_dialog)) exit;
+    
+nav_right = keyboard_check(ord("D")) || keyboard_check(vk_right) || (gamepad_axis_value(0,gp_axislh) > 0);
+nav_left = keyboard_check(ord("A")) || keyboard_check(vk_left) || (gamepad_axis_value(0,gp_axislh) < 0);
+nav_up = keyboard_check(ord("W")) || keyboard_check(vk_up) || (gamepad_axis_value(0,gp_axislv) < 0);
+nav_down = keyboard_check(ord("S")) || keyboard_check(vk_down) || (gamepad_axis_value(0,gp_axislv) > 0);
 
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+var _hor = nav_right - nav_left;
+var _ver = nav_down - nav_up;
 
 var _len = _hor!=0 || _ver!=0;
 var _dir = point_direction(0, 0, _hor, _ver);
